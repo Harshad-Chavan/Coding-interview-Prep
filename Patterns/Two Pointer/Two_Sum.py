@@ -3,7 +3,7 @@
 # given an array find the indexex for two values that when summed will give the target value
 
 
-arr = [-5,-2,-2,1,3,9]
+arr = [-5,-2,-1,1,3,9]
 target = -7
 
 def pair_sum_sorted_brute_force(arr):
@@ -23,8 +23,8 @@ def pair_sum_sorted_pointer(arr):
         elif _sum > target:
             right -= 1
         else:
-            return [left,right]
-    return  []
+           return [left, right]
+    return []
 
 
 if __name__ == "__main__":
