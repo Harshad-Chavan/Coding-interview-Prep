@@ -10,7 +10,7 @@ def linked_list_reversal(ll):
 
     # here comes the loop
     while curr_node:
-        # create this pointer
+        # create this pointer to the nect node
         next_node = curr_node.next
 
         # move the current nodes pointer to prev node
